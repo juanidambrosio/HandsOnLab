@@ -1,2 +1,2 @@
-# IotHandsOnLab
-Repo to achieve Iot Level 1 Hands On Lab
+# HandsOnLab
+Repo to achieve Level 1 Hands On Lab
