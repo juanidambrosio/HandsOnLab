@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDeviceIdentity", "CreateDeviceIdentity\CreateDeviceIdentity.csproj", "{36C79598-CCD9-49B1-B8D3-3CACAA4C7073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{5E74992A-0CB4-4F03-8FAB-421041E766D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{F774D836-355D-47AD-B8FD-2273C5530123}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36C79598-CCD9-49B1-B8D3-3CACAA4C7073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C79598-CCD9-49B1-B8D3-3CACAA4C7073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C79598-CCD9-49B1-B8D3-3CACAA4C7073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C79598-CCD9-49B1-B8D3-3CACAA4C7073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E74992A-0CB4-4F03-8FAB-421041E766D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E74992A-0CB4-4F03-8FAB-421041E766D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E74992A-0CB4-4F03-8FAB-421041E766D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E74992A-0CB4-4F03-8FAB-421041E766D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F774D836-355D-47AD-B8FD-2273C5530123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F774D836-355D-47AD-B8FD-2273C5530123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F774D836-355D-47AD-B8FD-2273C5530123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F774D836-355D-47AD-B8FD-2273C5530123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+		SolutionGuid = {38B94256-C0CB-4F9C-92AF-ED537B18267E}
+	EndGlobalSection
+EndGlobal
